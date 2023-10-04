@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { parseProgramArguments } from './cli.js';
 import { createFavicon, createImage } from './image.js';
 import { createIcon } from './icon.js';
