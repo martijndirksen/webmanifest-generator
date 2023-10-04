@@ -11,11 +11,13 @@
   "author": "Martijn Dirksen <martijn.dirksen@proton.me>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/martijndirksen/webmanifest-generator.git"
+    "url": "git+https://github.com/martijndirksen/webmanifest-generator.git"
   },
   "license": "MIT",
   "main": "dist/index.js",
-  "bin": "dist/index.js",
+  "bin": {
+    "webmanifest-generator": "dist/index.js"
+  },
   "files": [
     "dist/*.js"
   ],
