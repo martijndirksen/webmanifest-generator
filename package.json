@@ -1,0 +1,29 @@
+{
+  "name": "webmanifest-generator",
+  "version": "1.0.0",
+  "description": "Easy to use webmanifest generator",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "webmanifest"
+  ],
+  "author": "M. Dirksen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.18.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "sharp": "^0.32.6",
+    "sharp-ico": "^0.1.5"
+  },
+  "type": "module"
+}

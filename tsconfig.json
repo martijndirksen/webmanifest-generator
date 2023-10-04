@@ -1,0 +1,15 @@
+{
+  "include": ["./src/**/*.ts"],
+  "compilerOptions": {
+    "incremental": true,
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist"
+  }
+}
