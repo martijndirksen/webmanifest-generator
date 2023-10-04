@@ -16,6 +16,9 @@
   "license": "MIT",
   "main": "dist/index.js",
   "bin": "dist/index.js",
+  "files": [
+    "dist/*.js"
+  ],
   "devDependencies": {
     "@types/node": "^18.18.3",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
