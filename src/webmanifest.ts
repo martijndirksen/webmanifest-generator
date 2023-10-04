@@ -33,21 +33,25 @@ export function writeWebmanifest({
   themeColor: string;
   backgroundColor: string;
 }): Promise<void> {
-  const json = JSON.stringify({
-    lang,
-    dir,
-    name,
-    description,
-    short_name: shortName,
-    icons,
-    scope,
-    id,
-    start_url: startUrl,
-    display,
-    orientation,
-    theme_color: themeColor,
-    background_color: backgroundColor,
-  });
+  const json = JSON.stringify(
+    {
+      lang,
+      dir,
+      name,
+      description,
+      short_name: shortName,
+      icons,
+      scope,
+      id,
+      start_url: startUrl,
+      display,
+      orientation,
+      theme_color: `#${themeColor}`,
+      background_color: `#${backgroundColor}`,
+    },
+    undefined,
+    4,
+  );
 
   return writeFile('manifest.webmanifest', json, { encoding: 'utf-8' });
 }

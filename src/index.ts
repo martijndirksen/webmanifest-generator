@@ -32,4 +32,6 @@ import { writeWebmanifest } from './webmanifest.js';
   ];
 
   await Promise.all(promises);
+
+  console.log('Succesfully generated icons and manifest in current working directory');
 })();
