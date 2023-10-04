@@ -13,7 +13,6 @@ export async function createImage(
     outputFileName: string;
   },
 ) {
-  console.log(inputFilePath);
   return sharp(inputFilePath).resize(width, height).toFile(outputFileName);
 }
 

@@ -8,8 +8,14 @@
   "keywords": [
     "webmanifest"
   ],
-  "author": "M. Dirksen",
+  "author": "Martijn Dirksen <martijn.dirksen@proton.me>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martijndirksen/webmanifest-generator.git"
+  },
   "license": "MIT",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
   "devDependencies": {
     "@types/node": "^18.18.3",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
